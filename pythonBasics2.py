@@ -31,7 +31,7 @@ def longest_consecutive_repeating_char(a):
 
         else:
             if ctr > mx:
-                mx = ctr
+                mx = ctr 
                 ch = a[i]
             ctr = 1
     if ctr > mx:
